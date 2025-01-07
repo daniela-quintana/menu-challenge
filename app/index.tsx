@@ -1,13 +1,13 @@
-'use client' 
+ 'use client' 
 
 import React from 'react';
 import MenuCard from '../components/MenuCard';
 import menuData from '../public/menu.json';
 import { Grid, Typography } from '@mui/joy';
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 
 const Home = () => {
-  const router = useRouter();
+  // const router = useRouter();
 
   return (
     <div style={{ padding: '2rem' }}>
@@ -20,7 +20,8 @@ const Home = () => {
             price={item.price}
             description={item.description}
             image={item.image}
-            onClick={() => router.push(`/${item.id}`)}
+            // onClick={() => router.push(`/${item.id}`)}
+            onClick={() => console.log('test')}
           />
         ))}
       </Grid>
