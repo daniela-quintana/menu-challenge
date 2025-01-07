@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Carbonara",
+    "price": 12.99,
+    "description": "Delicious spaghetti with creamy carbonara sauce.",
+    "image": "/images/spaghetti-carbonara.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Margherita Pizza",
+    "price": 10.99,
+    "description": "Classic pizza with fresh tomatoes, mozzarella, and basil.",
+    "image": "/images/margherita-pizza.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Grilled Vegetable Platter",
+    "price": 9.99,
+    "description": "A colorful mix of grilled seasonal vegetables served with a tangy dipping sauce.",
+    "image": "/images/grilled-vegetable-platter.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Lentil and Chickpea Stew",
+    "price": 11.49,
+    "description": "Hearty stew made with lentils, chickpeas, tomatoes, and a blend of aromatic spices.",
+    "image": "/images/lentil-and-chickpea-stew.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Stuffed Bell Peppers",
+    "price": 10.99,
+    "description": "Bell peppers filled with a savory mix of rice, herbs, and vegetables, baked to perfection.",
+    "image": "/images/stuffed-bell-peppers.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mushroom Risotto",
+    "price": 12.49,
+    "description": "Creamy risotto with sautéed mushrooms, garlic, and a hint of fresh parsley.",
+    "image": "/images/mushroom-risotto.jpg"
+  }
+]
