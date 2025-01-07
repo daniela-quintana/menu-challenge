@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
+
+body {
+    background-color: red;
+  font-family: $font-primary;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: $font-secondary;
+  font-size: 2.0rem;
+  text-transform: uppercase;
+}
