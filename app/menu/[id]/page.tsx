@@ -6,23 +6,18 @@ import { MenuItem } from "../../../types/menu";
 import { Box, Button, Typography } from "@mui/joy";
 import Image from "next/image";
 
-interface Params {
-  id: string;
-}
-
-export default function MenuDetails({ params }: { readonly params: Params }) {
+export default function MenuDetails() {
   const router = useRouter();
+  const { id } = useParams();
   const [menuItem, setMenuItem] = useState<MenuItem | null>(null);
   const [loading, setLoading] = useState(true);
-
-  const { id } = useParams();
 
   useEffect(() => {
     if (!id) return;
 
     const fetchMenuItem = async () => {
       try {
-        const res = await fetch("http://localhost:3000/menu.json");
+        const res = await fetch('/menu.json');
         const menuItems: MenuItem[] = await res.json();
         const item = menuItems.find((item) => item.id.toString() === id);
         setMenuItem(item || null);
